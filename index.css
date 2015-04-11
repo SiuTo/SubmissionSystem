@@ -10,8 +10,42 @@
 .navbar-default .navbar-brand {
 	color: #ffffff;
 	height: 70px;
-	padding: 20px 20px;
+	padding: 20px;
 	font-size: 30px;
 	line-height: 30px;
 }
 
+.navbar-nav li {
+	height: 70px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.date {
+	color: #05b06a;
+}
+
+.pass {
+	color: #979797;
+}
+
+.notpass {
+	color: #fe5f5c;
+}
+
+.oddrow {
+	background-color: #ffffff;
+}
+
+.evenrow {
+	background-color: #fbfbfb;
+}
+
+.evenrow, .oddrow {
+	height: 200px;
+	padding: 20px;
+}
+
+hr {
+	margin: 0px;
+}
