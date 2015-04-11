@@ -1,3 +1,7 @@
+body {
+	margin-bottom: 5%;
+}
+
 .navbar {
 	min-height: 70px;
 }
@@ -18,34 +22,74 @@
 .navbar-nav li {
 	height: 70px;
 	padding: 20px;
-	font-size: 20px;
+	line-height: 30px;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+
+.row-odd {
+	background-color: #ffffff;
+}
+
+.row-even {
+	background-color: #fbfbfb;
+}
+
+.row-odd, .row-even {
+	height: 180px;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.pane-left {
+	height: 160px;
+}
+
+.pane-left p {
+	color: #979797;
 }
 
 .date {
 	color: #05b06a;
+	position: absolute;
+	bottom: 5px;
 }
 
 .pass {
 	color: #979797;
 }
 
-.notpass {
+.nopass {
 	color: #fe5f5c;
 }
 
-.oddrow {
-	background-color: #ffffff;
+.pass a {
+	color: #588be7;
 }
 
-.evenrow {
-	background-color: #fbfbfb;
+.nopass a {
+	color: #e0e0e0;
 }
 
-.evenrow, .oddrow {
-	height: 200px;
-	padding: 20px;
+.pass a, .nopass a {
+	float: right;
+}
+
+.pane-right {
+	line-height: 40px;
+}
+
+.pane-right ul {
+	list-style-type: none;
 }
 
 hr {
 	margin: 0px;
+	color: #e0e0e0;
 }
+
