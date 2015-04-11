@@ -1,0 +1,17 @@
+.navbar {
+	min-height: 70px;
+}
+
+.navbar-default {
+	background-color: #05b06a;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+	height: 70px;
+	padding: 20px 20px;
+	font-size: 30px;
+	line-height: 30px;
+}
+
