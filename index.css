@@ -6,9 +6,15 @@ body {
 	min-height: 70px;
 }
 
-.navbar-default {
+.navbar-default, .navbar ul {
 	background-color: #05b06a;
 	color: #ffffff;
+}
+
+.navbar button {
+	background-color: #069e6d;
+	color: #ffffff;
+	border: 0;
 }
 
 .navbar-default .navbar-brand {
@@ -29,6 +35,20 @@ body {
 	height: 70px;
 	color: #ffffff;
 	display: inline;
+	text-align: center;
+}
+
+.navbar .dropdown-menu {
+	height: 120px;
+	min-width: 140px;
+}
+
+.navbar .dropdown-menu li,
+.dropdown-menu>li>a {
+	padding: 5px;
+	display: block;
+	color: #ffffff;
+	height: 30px;
 }
 
 .navbar-default .navbar-brand:hover,
