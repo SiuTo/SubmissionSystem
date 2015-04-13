@@ -118,3 +118,21 @@ hr {
 	color: #e0e0e0;
 }
 
+.articleTitle {
+	padding: 1%;
+}
+
+.btn-cancel {
+	background-color: #e0e0e0;
+	color: #05b06a;
+	height: 40px;
+	width: 100px;
+}
+
+.btn-submit {
+	background-color: #05b06a;
+	color: #ffffff;
+	width: 100px;
+	height: 40px;
+}
+
