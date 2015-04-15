@@ -146,3 +146,26 @@ hr {
 	color: #05b06a;
 }
 
+.pre{
+	font-size:20px;
+	color:#2f2f2f;
+}
+.crumb{
+	color:green;
+}
+.crumb a{
+	color:#8c8c8c;
+}
+.pre_date{
+	color:#8c8c8c;
+}
+.pre_article{
+	padding-top:40px;
+}
+.pre_article p{
+	color:#8c8c8c;
+}
+.pre_button_row{
+	padding-top:40px;
+}
+
