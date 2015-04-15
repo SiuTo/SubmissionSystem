@@ -25,16 +25,16 @@ body {
 ul.navibar {
 	list-style-type: none;
 	border-bottom: solid 1px #e0e0e0;
-	height: 30px;
+	height: 40px;
+	padding: 5px;
 }
 
 .navibar li {
 	display: inline;
-	padding: 5px;
+	padding: 10px;
 	line-height: 30px;
 	font-size: 1em;
 	font-weight: 600;
-	height: 30px;
 }
 
 .navibar .active {
@@ -43,6 +43,17 @@ ul.navibar {
 
 .navibar li a {
 	color: #8c8c8c;
+}
+
+.btn.putout {
+	background: #05b06a;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1em;
+	float: right;
+	color: #ffffff;
 }
 
 h1 {
