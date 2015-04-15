@@ -119,7 +119,8 @@ hr {
 }
 
 .articleTitle {
-	padding: 1%;
+	padding-top:30px;
+	padding-left:1%;
 }
 
 .btn-cancel {
