@@ -169,6 +169,9 @@ hr {
 .crumb a{
 	color:#8c8c8c;
 }
+.pre_crumb{
+	padding-top:30px;
+}
 .pre_date{
 	color:#8c8c8c;
 }
