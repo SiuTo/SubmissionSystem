@@ -2,58 +2,70 @@ body {
 	margin-bottom: 5%;
 }
 
-.navbar {
-	min-height: 70px;
-}
-
-.navbar-default, .navbar ul {
+.page-head {
 	background-color: #05b06a;
-	color: #ffffff;
-}
-
-.navbar button {
-	background-color: #069e6d;
-	color: #ffffff;
-	border: 0;
-}
-
-.navbar-default .navbar-brand {
-	color: #ffffff;
 	height: 70px;
-	padding: 20px;
+	color: #ffffff;
+	line-height: 70px;
+}
+
+.page-title {
 	font-size: 30px;
-	line-height: 30px;
 }
 
-.navbar-nav li,
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav > li > a:hover {
-	height: 70px;
-	padding: 20px;
-	line-height: 30px;
+.page-user {
 	font-size: 20px;
-	height: 70px;
+	float: right;
+}
+
+.page-head a {
 	color: #ffffff;
-	display: inline;
-	text-align: center;
 }
 
-.navbar .dropdown-menu {
-	height: 120px;
-	min-width: 140px;
-}
-
-.navbar .dropdown-menu li,
-.dropdown-menu>li>a {
+ul.navibar {
+	list-style-type: none;
+	border-bottom: solid 1px #e0e0e0;
+	height: 40px;
 	padding: 5px;
-	display: block;
-	color: #ffffff;
-	height: 30px;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navibar li {
+	display: inline;
+	padding: 10px;
+	line-height: 30px;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.navibar .active {
+	border-bottom: solid 2px #05b06a;
+}
+
+.navibar li a {
+	color: #8c8c8c;
+}
+
+.btn.putout {
+	background: #05b06a;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1em;
+	float: right;
 	color: #ffffff;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
 }
 
 .row-odd {
@@ -130,10 +142,43 @@ hr {
 	width: 100px;
 }
 
+.btn-cancel:hover {
+	background-color: #05b06a;
+	color: #ffffff;
+}
+
 .btn-submit {
 	background-color: #05b06a;
 	color: #ffffff;
 	height: 40px;
 	width: 100px;
+}
+
+.btn-submit:hover {
+	background-color: #e0e0e0;
+	color: #05b06a;
+}
+
+.pre{
+	font-size:20px;
+	color:#2f2f2f;
+}
+.crumb{
+	color:green;
+}
+.crumb a{
+	color:#8c8c8c;
+}
+.pre_date{
+	color:#8c8c8c;
+}
+.pre_article{
+	padding-top:40px;
+}
+.pre_article p{
+	color:#8c8c8c;
+}
+.pre_button_row{
+	padding-top:40px;
 }
 
