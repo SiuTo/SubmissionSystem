@@ -4,3 +4,5 @@ function changeImage(imagePath)
 	alert(imagePath);
 }
 
+$(".pane:odd").css("background-color", "#fbfbfb");
+

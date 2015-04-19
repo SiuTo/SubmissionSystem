@@ -68,15 +68,7 @@ h3 {
 	font-size: 1.3em;
 }
 
-.row-odd {
-	background-color: #ffffff;
-}
-
-.row-even {
-	background-color: #fbfbfb;
-}
-
-.row-odd, .row-even {
+.pane {
 	height: 180px;
 	padding: 10px;
 	margin-left: 0px;
