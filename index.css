@@ -68,15 +68,7 @@ h3 {
 	font-size: 1.3em;
 }
 
-.row-odd {
-	background-color: #ffffff;
-}
-
-.row-even {
-	background-color: #fbfbfb;
-}
-
-.row-odd, .row-even {
+.pane {
 	height: 180px;
 	padding: 10px;
 	margin-left: 0px;
@@ -183,5 +175,19 @@ hr {
 }
 .pre_button_row{
 	padding-top:40px;
+}
+
+.modal-header {
+	color: #05b06a;
+}
+
+.modal-body {
+	margin: 15px;
+}
+
+.modal-label {
+	text-align: center;
+	padding: 10px;
+	color: #979797;
 }
 
