@@ -198,3 +198,8 @@ hr {
 	color: #979797;
 }
 
+.form-control:focus {
+	border-color: #05b06a;
+	box-shadow: 0 0 8px #05b06a;
+}
+
