@@ -45,15 +45,16 @@ ul.navibar {
 	color: #8c8c8c;
 }
 
-.btn.putout {
+.putout {
 	background: #05b06a;
-	padding-top: 0;
-	padding-bottom: 0;
+	width: 60px;
 	height: 30px;
 	line-height: 30px;
 	font-size: 1em;
 	float: right;
 	color: #ffffff;
+	border: 0px;
+	border-radius: 5px;
 }
 
 h1 {

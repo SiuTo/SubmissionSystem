@@ -6,8 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="plugins/bootstrap/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<script src="plugins/jquery-1.11.2.min.js"></script>
-		<script src="plugins/bootstrap/bootstrap.js"></script>
+		<script type="text/javascript" src="plugins/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="plugins/bootstrap/bootstrap.js"></script>
 	</head>
 
 	<body>
@@ -23,9 +23,37 @@
 				<li><a href="user_listview.html">未审核</a></li>
 				<li><a href="user_listview_viewed.html">已审核</a></li>
 				<li class="active"><a href="user_listview_draft.html">草稿</a></li>
-				<button class="btn putout">发布</button>
+				<button type="button" class="putout" data-toggle="modal" data-target="#SelectSubmission">发布</button>
 			</div>
 		</ul>
+
+		<div class="modal fade" id="SelectSubmission">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						发布对象
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-sm-offset-1 col-sm-2">
+									<a href="#"><img id="imageArticle" src="icons/user_edit_article.png" /></a>
+									<div class="modal-label">文章</div>
+								</div>
+								<div class="col-sm-offset-2 col-sm-2">
+									<a href="#"><img id="imageVideo" src="icons/user_edit_video.png" /></a>
+									<div class="modal-label">视频</div>
+								</div>
+								<div class="col-sm-offset-2 col-sm-2">
+									<a href="#"><img id="imagePhoto" src="icons/user_edit_photo.png" /></a>
+									<div class="modal-label">照片</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="container">
 			<div class="row">
