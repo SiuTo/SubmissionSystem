@@ -123,10 +123,11 @@ hr {
 	color: #e0e0e0;
 }
 
-.articleTitle {
-	padding-top:30px;
-	padding-left:1%;
+.row-margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
 .btn-upload{
 	color: #333;
 	background-color: #FFF;
@@ -169,20 +170,8 @@ hr {
 .crumb a{
 	color:#8c8c8c;
 }
-.pre_crumb{
-	padding-top:30px;
-}
 .pre_date{
 	color:#8c8c8c;
-}
-.pre_article{
-	padding-top:40px;
-}
-.pre_article p{
-	color:#8c8c8c;
-}
-.pre_button_row{
-	padding-top:40px;
 }
 
 .modal-header {
